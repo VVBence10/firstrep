@@ -1,11 +1,15 @@
 from random import randint
 
-def main():
-    for i in range(5):
-        print(randint(1, 100))
+def get_random_number(x, y):
+    return randint(x, y)
 
-# what is this
+def print_number(x):
+    for i in range(x):
+        print(get_random_number(1, 100))
+
+def main():
+    print_number(5)
+    
+    
 if __name__ == "__main__":
     main()
-
-
