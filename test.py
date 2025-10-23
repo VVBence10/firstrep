@@ -4,7 +4,7 @@ def main():
     for i in range(5):
         print(randint(1, 100))
 
-# what is thicl
+# what is this
 if __name__ == "__main__":
     main()
 
